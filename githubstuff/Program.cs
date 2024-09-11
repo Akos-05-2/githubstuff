@@ -19,8 +19,9 @@ namespace githubstuff
             }
             foreach (var item in rndm_nums)
             {
-                Console.WriteLine(item + ", ");
+                Console.Write(item + ", ");
             }
+            Console.ReadKey();
         }
     }
 }
