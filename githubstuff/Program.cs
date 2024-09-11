@@ -10,7 +10,7 @@ namespace githubstuff
     {
         static void Main(string[] args)
         {
-            //azért a lófasznak is van vége
+            //1. feladat
             List<int> rndm_nums = new List<int>();
             Random rndm = new Random();
             for (int i = 0; i <= 100; i++)
