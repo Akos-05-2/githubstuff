@@ -21,6 +21,22 @@ namespace githubstuff
             {
                 Console.Write(item + ", ");
             }
+            Console.WriteLine();
+            foreach (var item in rndm_nums)
+            {
+                if (item == 100)
+                {
+                    Console.WriteLine("Ez a lista fasza");
+                }
+            }
+            Console.WriteLine();
+            foreach (var item in rndm_nums)
+            {
+                if (item % 2 == 0)
+                {
+                    Console.WriteLine("Páros szám!");
+                }
+            }
             Console.ReadKey();
         }
     }
